@@ -39,3 +39,21 @@ section#celular > iframe {
     height: 471px;
 }
 
+section#redes {
+    float: right;
+}
+
+section#redes img {
+display: block;
+width: 50px;
+margin: 10px;
+border-radius: 50%;
+box-shadow: 2px 2px 5px black;
+box-sizing: border-box;
+}
+
+section#redes img:hover {
+    border: 2px solid white;
+    transform: translate(-3px,-3px);
+    transition-duration: 0.2s;
+}
