@@ -29,5 +29,13 @@ section#celular {
     height: 627px;
     width: 311px;
     background: url(../imagens/frame-iphone.png) no-repeat;
+    display: flex;
+    justify-content: center; 
+    align-items: center;
+}
+
+section#celular > iframe {
+    width: 269px;
+    height: 471px;
 }
 
